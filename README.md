@@ -64,6 +64,12 @@ Use the CLI first. Import the Python functions when you want to embed the same b
 
 It gives skill authors a lightweight quality gate before sharing prompts or agent packages.
 
+## Used With
+
+- Run before publishing agent skills for Codex, Claude Code, Cursor, Copilot, or other harnesses.
+- Pair with `mcp-server-radar` when a skill depends on MCP tools and needs clear boundaries.
+- Pair with `prompt-drift-watch` when skill instructions change over time.
+
 ## Roadmap
 
 See [ROADMAP.md](ROADMAP.md).

@@ -1,0 +1,26 @@
+name: agent-skill-lint
+one_liner: Lint agent skills and prompt packs for missing boundaries and risky wording.
+target_user: AI agent builders
+pain_point: Agent skills often ship without clear scope, safety boundaries, or tests.
+demo_command: PYTHONPATH=src python3 -m agent_skill_lint examples/skill.md
+topics:
+  - ai-tools
+  - agent-skills
+  - agents
+  - prompt-engineering
+  - cli
+  - developer-tools
+release_channel:
+  - github
+  - relevant-developer-communities
+launch_copy:
+  - I built agent-skill-lint: Lint agent skills and prompt packs for missing boundaries and risky wording.
+  - The pain: Agent skills often ship without clear scope, safety boundaries, or tests.
+  - Try it with: PYTHONPATH=src python3 -m agent_skill_lint examples/skill.md
+quality_gate:
+  commands:
+    - python3 -m unittest discover -s tests
+metrics_goal:
+  day_1_stars: 5
+  day_3_stars: 15
+  day_7_stars: 50
